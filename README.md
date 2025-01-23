@@ -1,5 +1,12 @@
 # Google Ads API Client Library for PHP
 
+Fork kept at PHP 7.2 support.
+
+1. Merge upstram
+2. Run `vendor/bin/rector`
+3. Commit and push
+4. Upgrade API version in the client code
+
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%208.1-8892BF.svg)](https://www.php.net/supported-versions.php)
 [![Latest Stable
 Version](https://img.shields.io/packagist/v/googleads/google-ads-php.svg)](https://packagist.org/packages/googleads/google-ads-php)

@@ -43,7 +43,10 @@ trait GoogleAdsGapicClientTrait
     private $linkedCustomerId = null;
     private $unaryMiddlewares = [];
     private $streamingMiddlewares = [];
-    private ?GoogleAdsResponseMetadata $responseMetadata = null;
+    /**
+     * @var \Google\Ads\GoogleAds\Lib\V18\GoogleAdsResponseMetadata|null
+     */
+    private $responseMetadata;
 
     /**
      * @see GapicClientTrait::modifyClientOptions()
