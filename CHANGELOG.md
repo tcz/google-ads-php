@@ -1,3 +1,40 @@
+## 25.0.0
+*   Added support for v18 of Google Ads API.
+*   Removed support for the `useGapicV2Source` configuration, as the source code
+    of all versions are generated as GAPIC v2.
+    * Fixed the LaravelSampleApp to use GAPIC v2.
+*   Updated code examples:
+    * GetAllDisapprovedAds
+    * HandlePartialFailure
+
+## 24.0.0
+*   Added support for v17_1 of Google Ads API.
+*   Removed support for v15 of Google Ads API.
+*   Made service client classes non-final.
+*   Added support for setting a REST handler as a client option for each call.
+
+## 23.1.0
+*   Added support for v17 of Google Ads API.
+*   Updated code examples for removing the usage of `pageSize`:
+    * GetAccountHierarchy
+    * GetChangeDetails
+    * GetChangeSummary
+    * LinkManagerToClient
+    * FindAndRemoveCriteriaFromSharedSet
+    * GetAdGroupBidModifiers
+    * GetResponsiveSearchAds
+    * GetAllDisapprovedAds
+    * CampaignReportToCsv
+    * SetUpRemarketing
+    * UpdateAudienceTargetRestriction
+    * AddPerformanceMaxProductListingGroupTree
+    * AddPerformanceMaxRetailCampaign
+    * AddShoppingProductListingGroupTree
+    * GetProductCategoryConstants
+    * Utils\Feeds
+*   Removed code examples:
+    * NavigateSearchResultPagesCachingTokens
+
 ## 23.0.1
 *   Re-generated the source code for v16_1 of Google Ads API to add some missing
     classes and enum values.
